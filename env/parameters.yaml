@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:cjxd-v6-gke-ctrl-build/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dgozalo@cloudbees.com
+  token: vault:cjxd-v6-gke-ctrl-build/pipelineUser:token
+  username: dgozalo
+prow:
+  hmacToken: vault:cjxd-v6-gke-ctrl-build/prow:hmacToken
